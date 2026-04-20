@@ -1,0 +1,9 @@
+{
+  "disk_reduction_ratio": 1.8414634146341464,
+  "peak_vram_ratio_transformers": 0.9974626703557461,
+  "peak_vram_ratio_transformers_note": "~1.00\u00d7 expected: HF transformers dequantizes W8A8 at use-time. Source: measured this run.",
+  "generation_speedup_vllm_avg": 1.5438551650692225,
+  "generation_speedup_humaneval": 1.5733333333333335,
+  "generation_speedup_bcb_hard": 1.5143769968051117,
+  "note": "Generation speedup measured via vLLM in notebook 04. Transformers backend does not dispatch INT8 kernels, so its W8A8 timing and VRAM are NOT representative of deployment performance."
+}

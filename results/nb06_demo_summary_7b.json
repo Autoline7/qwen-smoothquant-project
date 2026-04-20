@@ -1,0 +1,32 @@
+{
+  "n_tasks": 3,
+  "bf16_pass_count": 2,
+  "w8a8_pass_count": 2,
+  "bf16_pass_rate": 0.6666666666666666,
+  "w8a8_pass_rate": 0.6666666666666666,
+  "agreement_count": 3,
+  "tasks": [
+    {
+      "name": "flatten_dict",
+      "bf16_passed": true,
+      "w8a8_passed": true,
+      "bf16_note": "5/5 cases passed",
+      "w8a8_note": "5/5 cases passed"
+    },
+    {
+      "name": "retry_decorator",
+      "bf16_passed": false,
+      "w8a8_passed": false,
+      "bf16_note": "expected ValueError, got UnboundLocalError: cannot access local variable 'e' where it is not associated with a value",
+      "w8a8_note": "expected ValueError, got UnboundLocalError: cannot access local variable 'e' where it is not associated with a value"
+    },
+    {
+      "name": "csv_group_sum",
+      "bf16_passed": true,
+      "w8a8_passed": true,
+      "bf16_note": "3/3 cases passed",
+      "w8a8_note": "3/3 cases passed"
+    }
+  ],
+  "note": "vLLM backend, greedy decoding. Small n; illustrative demo not a benchmark. See notebook 04 for HumanEval/BCB pass@1 numbers on this same checkpoint."
+}

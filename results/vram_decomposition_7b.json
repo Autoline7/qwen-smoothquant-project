@@ -1,0 +1,19 @@
+{
+  "weights_plus_overhead_gb": 14.19508171081543,
+  "kv_measured_gb_at_ctx": {
+    "4096": 1.3789348602294922
+  },
+  "kv_analytical_gb_at_ctx": {
+    "4096": 0.21875
+  },
+  "prefill_activations_gb": 0.02734375,
+  "peak_total_gb": 15.601360321044922,
+  "kv_bytes_per_token_bf16": 57344,
+  "kv_bytes_per_token_fp8": 28672,
+  "architecture": {
+    "num_hidden_layers": 28,
+    "num_key_value_heads": 4,
+    "num_attention_heads": 28,
+    "head_dim": 128
+  }
+}

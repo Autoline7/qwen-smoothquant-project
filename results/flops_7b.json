@@ -1,0 +1,9 @@
+{
+  "analytical_formula": "2 * P * T",
+  "per_token_flops": 15231233024,
+  "flops_per_token_tflops": 0.015231233024,
+  "analytical_256tok_tflops": 3.899195654144,
+  "measured_256tok_tflops": null,
+  "measurement_method": null,
+  "note": "FLOPs are identical for bf16 and W8A8; quantization reduces memory bandwidth, not arithmetic operations. Analytical 2*P*T omits attention O(T^2) and activation FLOPs."
+}

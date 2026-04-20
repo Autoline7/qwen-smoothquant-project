@@ -1,0 +1,6 @@
+{
+  "bf16_14b_oom_observed": true,
+  "w8a8_14b_peak_vram_gb": null,
+  "gpu_total_vram_gb": 24.0,
+  "note": "bf16 14B weights (~28 GB) exceed 24 GB VRAM; W8A8 14B weights (~15 GB) fit with KV-cache budget to spare."
+}

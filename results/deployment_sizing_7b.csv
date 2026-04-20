@@ -1,0 +1,21 @@
+config,weights_gb,kv_budget_gb,context,kv_per_user_gb,max_users
+bf16  weights + bf16 KV,14.1,6.5,2048,0.109,59
+bf16  weights + bf16 KV,14.1,6.5,8192,0.438,14
+bf16  weights + bf16 KV,14.1,6.5,16384,0.875,7
+bf16  weights + bf16 KV,14.1,6.5,32768,1.75,3
+bf16  weights + bf16 KV,14.1,6.5,131072,7.0,0
+W8A8  weights + bf16 KV,7.7,12.9,2048,0.109,117
+W8A8  weights + bf16 KV,7.7,12.9,8192,0.438,29
+W8A8  weights + bf16 KV,7.7,12.9,16384,0.875,14
+W8A8  weights + bf16 KV,7.7,12.9,32768,1.75,7
+W8A8  weights + bf16 KV,7.7,12.9,131072,7.0,1
+W8A8  weights + fp8  KV,7.7,12.9,2048,0.055,235
+W8A8  weights + fp8  KV,7.7,12.9,8192,0.219,58
+W8A8  weights + fp8  KV,7.7,12.9,16384,0.438,29
+W8A8  weights + fp8  KV,7.7,12.9,32768,0.875,14
+W8A8  weights + fp8  KV,7.7,12.9,131072,3.5,3
+W4A16 weights + fp8  KV,4.2,16.4,2048,0.055,299
+W4A16 weights + fp8  KV,4.2,16.4,8192,0.219,74
+W4A16 weights + fp8  KV,4.2,16.4,16384,0.438,37
+W4A16 weights + fp8  KV,4.2,16.4,32768,0.875,18
+W4A16 weights + fp8  KV,4.2,16.4,131072,3.5,4
