@@ -1,0 +1,37 @@
+{
+  "q_proj": {
+    "num_layers_calibrated": 28,
+    "mean_outlier_ratio": 18.361979450498307,
+    "max_outlier_ratio": 48.85714340209961
+  },
+  "k_proj": {
+    "num_layers_calibrated": 28,
+    "mean_outlier_ratio": 18.361979450498307,
+    "max_outlier_ratio": 48.85714340209961
+  },
+  "v_proj": {
+    "num_layers_calibrated": 28,
+    "mean_outlier_ratio": 18.361979450498307,
+    "max_outlier_ratio": 48.85714340209961
+  },
+  "o_proj": {
+    "num_layers_calibrated": 28,
+    "mean_outlier_ratio": 2.963981398514339,
+    "max_outlier_ratio": 4.441860675811768
+  },
+  "gate_proj": {
+    "num_layers_calibrated": 28,
+    "mean_outlier_ratio": 13.257037724767413,
+    "max_outlier_ratio": 29.80645179748535
+  },
+  "up_proj": {
+    "num_layers_calibrated": 28,
+    "mean_outlier_ratio": 13.257037724767413,
+    "max_outlier_ratio": 29.80645179748535
+  },
+  "down_proj": {
+    "num_layers_calibrated": 28,
+    "mean_outlier_ratio": 13.238504835537501,
+    "max_outlier_ratio": 72.1066665649414
+  }
+}
