@@ -40,7 +40,6 @@ Benchmarks:
 ```
 qwen-smoothquant-project/
 ├── README.md                                         This file
-├── requirements.txt
 ├── src/
 │   ├── qwen_smooth.py                                SmoothQuant smoothing adapted for Qwen2
 │   ├── qwen_fake_quant.py                            W8A8 fake-quant linear for PPL validation
