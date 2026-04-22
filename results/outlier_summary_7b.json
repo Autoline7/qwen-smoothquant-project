@@ -1,37 +1,37 @@
 {
   "q_proj": {
     "num_layers_calibrated": 28,
-    "mean_outlier_ratio": 18.361979450498307,
-    "max_outlier_ratio": 48.85714340209961
+    "mean_outlier_ratio": 18.30935137612479,
+    "max_outlier_ratio": 48.28571319580078
   },
   "k_proj": {
     "num_layers_calibrated": 28,
-    "mean_outlier_ratio": 18.361979450498307,
-    "max_outlier_ratio": 48.85714340209961
+    "mean_outlier_ratio": 18.30935137612479,
+    "max_outlier_ratio": 48.28571319580078
   },
   "v_proj": {
     "num_layers_calibrated": 28,
-    "mean_outlier_ratio": 18.361979450498307,
-    "max_outlier_ratio": 48.85714340209961
+    "mean_outlier_ratio": 18.30935137612479,
+    "max_outlier_ratio": 48.28571319580078
   },
   "o_proj": {
     "num_layers_calibrated": 28,
-    "mean_outlier_ratio": 2.963981398514339,
-    "max_outlier_ratio": 4.441860675811768
+    "mean_outlier_ratio": 2.9635663543428694,
+    "max_outlier_ratio": 4.418604850769043
   },
   "gate_proj": {
     "num_layers_calibrated": 28,
-    "mean_outlier_ratio": 13.257037724767413,
-    "max_outlier_ratio": 29.80645179748535
+    "mean_outlier_ratio": 13.259937950542994,
+    "max_outlier_ratio": 29.677419662475586
   },
   "up_proj": {
     "num_layers_calibrated": 28,
-    "mean_outlier_ratio": 13.257037724767413,
-    "max_outlier_ratio": 29.80645179748535
+    "mean_outlier_ratio": 13.259937950542994,
+    "max_outlier_ratio": 29.677419662475586
   },
   "down_proj": {
     "num_layers_calibrated": 28,
-    "mean_outlier_ratio": 13.238504835537501,
+    "mean_outlier_ratio": 13.236415914126805,
     "max_outlier_ratio": 72.1066665649414
   }
 }
